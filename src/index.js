@@ -8,7 +8,7 @@ import PageNotFound from './pages/PageNotFound';
 const cache = new InMemoryCache();
 const uri =
   process.env.NODE_ENV === 'production'
-    ? 'https://gridt-apollo.herokuapp.com/'
+    ? 'https://grid-t.herokuapp.com/'
     : 'http://localhost:3333/';
 
 const client = new ApolloClient({
